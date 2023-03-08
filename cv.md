@@ -1,4 +1,6 @@
-
+![image][1]
+[1]: https://app.rs.school/static/images/logo-rsschool3.png
+<image src="https://app.rs.school/static/images/logo-rsschool3.png" alt="Описание картинки">
 
 
 # Hello RS SCHOOL
