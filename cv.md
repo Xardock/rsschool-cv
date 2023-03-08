@@ -10,3 +10,12 @@
 - [ x ] community
 
 - [ x ] self-development
+
+**Anatol Suchotski** <br>
+***Email:*** Xardock@yandex.ru <br>
+My goal is in an effort to learn and learn something new <br>
+base c#, base HTML, SCSS/CSS, base javascript <br>
+*script alert( 'Hello RS SCHOOL!' ); script* <br>
+no experience
+specialized secondary
+translation google
