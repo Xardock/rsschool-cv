@@ -1,0 +1,284 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    font-family:'Roboto', sans-serif;;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0 0 50px 0;
+}
+
+.header {
+    margin: 0 0 50px 0;
+}
+
+.header_bar_row {
+    display: flex;
+    justify-content: end;
+    font-size: 28px;
+}
+
+.header_bar_link {
+    display: block;
+    padding: 35px 47px;
+    color: #000000;
+}
+
+.header_bar_column:hover:nth-child(1) a {
+    background: url('/rsschool-cv/image/cube.svg') right/ 40px 40px no-repeat;
+    color: #6860E2;
+    cursor: pointer;
+    color-scheme: #6860E2 ;
+    color-interpolation-filters: red;
+}
+
+.header_bar_column:hover:nth-child(2) a {
+    background: url('/rsschool-cv/image/rob.svg') right/40px 40px no-repeat;
+    color: #E84949;
+    cursor: pointer;
+}
+
+.header_bar_column:hover:nth-child(3) a {
+    background: url('/rsschool-cv/image/mail.svg') right/40px 40px no-repeat;
+    color: #00df8e;
+    cursor: pointer;
+}
+
+.header_bar {
+    margin: 0 0 149px 0;
+}
+
+.header_title_row {
+    display: flex;
+}
+
+.header_title_column_row {
+    display: flex;
+    flex-direction: column;
+    gap:37px;
+    padding: 100px 10px;
+}
+
+.header_title_usermane {
+    font-size: 50px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.header_title_text {
+    font-size: 35px;
+    color: #838383;
+    line-height: 157.6%;
+    
+}
+
+.header_title_img img {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.header_title_img img:hover {
+    -webkit-box-shadow: 5px 5px 25px 4px #000000; 
+            box-shadow: 5px 5px 25px 4px #000000;
+}
+
+.header_title_btn a {
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 24px;
+    background:#E84949;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; 
+}
+
+.header_title_btn a:hover {
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 54px 10px 24px;
+    background:#E84949 url('/rsschool-cv/image/small.png') 90% 50%/30px 30px no-repeat;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    
+}
+
+.contect_skills_row {
+    display: flex;
+}
+
+
+.skills_text_row{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.content_skills_warpimg {
+    display: flex;
+}
+
+.content_skills_warpimg span {
+    display: block;
+    margin: 0 auto;
+}
+
+.contect_title-skills{
+    background: url('/rsschool-cv/image/cube.svg') 57% / 40px 40px no-repeat;
+    color: #6860E2;
+}
+
+.content_skills_warpimg {
+    padding: 100px;
+}
+
+.content_skills_text {
+    color: #818080;
+    font-size: 35px;
+    line-height: 51px;
+}
+
+.content_info_img {
+    padding-left: 67px;
+}
+
+.content_info_img:first-child{
+    padding: 0;
+}
+
+.contect_title-projects {
+    background: url('/rsschool-cv/image/rob.svg') 59% /40px 40px no-repeat;
+    color: #E84949;
+}
+
+.contect_label-projects {
+    text-align: center;
+    font-size: 35px;
+    line-height: 51px;
+    color: #818080;
+}
+
+.contect_projects_img {
+    text-align: center;
+}
+
+.contect_title-contactme {
+    background: url('/rsschool-cv/image/mail.svg') 61%/40px 40px no-repeat;
+    color: #00df8e;
+}
+
+.contect_contactme_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contect_contact_img img {
+    width: 500px;
+}
+
+.contect_contact_link{
+    margin: 20px;
+}
+.contect_contact_link li {
+    padding-top: 10px;
+    font-size: 34px;
+    color: #6860E2;
+    text-shadow:
+      -1px -1px #FFF,
+      -2px -2px #FFF,
+      -1px 1px #FFF,
+      -2px 2px #FFF,
+      1px 1px #FFF,
+      2px 2px #FFF,
+      1px -1px #FFF,
+      2px -2px #FFF,
+      -3px -3px 2px #BBB,
+      -3px 3px 2px #BBB,
+      3px 3px 2px #BBB,
+      3px -3px 2px #BBB;
+    color: steelblue;
+    transition: all 1s;
+  }
+  
+  .contect_contact_link li:hover {
+    color: #00df8e;
+    cursor: default;
+  }
+
+.footer_wrap {
+    background: url('/rsschool-cv/image/wave.svg')  no-repeat;
+}
+
+.footer_text_wrap {
+    padding: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 0 0 ;
+}
+
+.footer_text{
+    color: #FFFFFF;
+    font-size: 35px;
+    line-height: 51px;
+    font-weight: 300;
+}
+
+.footer_text span {
+    color: #0ACBBF;
+}
+
+.footer_img img {
+    width: 40px;
+}
+
+.img_text_wrap{
+    display: flex;
+    padding: 25px;
+}
+
