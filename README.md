@@ -1,1 +1,1 @@
-rsschool-cv-html https://Xardock.github.io/rsschool-cv/rsschool-cv/cv
+https://Xardock.github.io/rsschool-cv-html/cv
